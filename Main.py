@@ -5,8 +5,8 @@ import importlib
 from Library import library
 
 import os
-clear = lambda: os.system('cls')
-clear()
+
+_library = library()
 
 frameworkFiles = [
     "Main.py",
@@ -40,6 +40,6 @@ while True:
     else:
         print("You have to choose a number in the range of the choices")
 
-clear()
+_library.Clear()
 
 modules[int(toolIndex) - 1].start(library())
