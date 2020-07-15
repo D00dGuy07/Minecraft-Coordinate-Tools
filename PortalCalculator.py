@@ -43,4 +43,4 @@ def start(library):
     library.DataBase.SaveDictionary(fileName, locationsList)
     
 def convertToNetherCoords(coordinate, library):
-    return coordinate / 8
+    return coordinate // 8
