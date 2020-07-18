@@ -8,13 +8,15 @@ import os
 
 _library = library()
 
+_library.Clear()
+
 frameworkFiles = [
     "Main.py",
     "Library.py",
     "Errors.py"
 ]
 
-print("Minecraft Coordinate Tools\nVersion: 1.0\n")
+print("Minecraft Coordinate Tools\nVersion: 1.1\n")
 
 files = os.listdir()
 modules = []

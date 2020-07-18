@@ -195,7 +195,7 @@ def ParseVector(content):
         elif len(vectorValues) == 3:
             return Vector3(int(vectorValues[0]), int(vectorValues[1]), int(vectorValues[2]))
         else:
-            raise Errors.ParsingError("Vector value had wrong amount of values")
+            raise Errors.ParsingError("Vector value had wrong number of values")
     else:
         raise Errors.ParsingError("ParseVector function did not get a vector to parse")
 

@@ -267,7 +267,7 @@ def _open(arguments, library, locationsList, defaultReturn):
             if library.RepresentsInt(fileToOpen):
                 results["locationsList"] = library.DataBase.LoadDictionary(files[int(fileToOpen) - 1][:-5])
                 results["saved"] = True
-                break
+                return results
             else:
                 print("Pick the number of the file.")
                 fileToOpen = input()
