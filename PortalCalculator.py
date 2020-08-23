@@ -1,5 +1,5 @@
 # Portal Calculator takes a file made in locations list and calculates those coordinates in the nether
-# By Kieran Brown
+# By D00dGuy07
 
 import math
 
