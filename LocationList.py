@@ -1,5 +1,5 @@
 # List Location creates a list of locations tied to names
-# By Kieran Brown
+# By D00dGuy07
 
 name = "Locations List"
 description = "Creates a set of coordinates with names"
