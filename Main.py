@@ -1,5 +1,5 @@
 # Minecraft Coordinate Tools
-# By Kieran Brown
+# By D00dGuy07
 
 import importlib
 from Library import library
